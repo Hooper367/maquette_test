@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+
+}
+
+header {
+    padding: 50px;
+    background: url(img/fond.png);
+}
+
+header a {
+    text-decoration: none;
+    text-align: center;
+    color: #999999;
+
+}
+
+header img {
+    margin: auto;
+    width: 20%;
+
+    display: block;
+}
+
+.titre {
+    text-align: center;
+    color: #999999;
+}
+
+.titre a {
+    font-size: 35px;
+
+}
+
+
+header h2 {
+    margin-top: 7px;
+    font-size: 32px;
+    color: #999999;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+
+    padding: 15px 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a {
+    color: #999999;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+nav a i {
+    display: block !important;
+    padding: 15px 0;
+}
+
+.present {
+    background: url(img/bg_header.jpg);
+    background-size: cover;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+}
+
+.present h1 {
+    font-size: 2em;
+    line-height: 1.8em;
+    margin-bottom: 21px;
+
+}
+
+.present p {
+    line-height: 1.7em;
+    padding: 0 0 50px;
+
+}
+
+.present a {
+    background: rgba(246, 36, 89, 1);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+
+}
+
+.graph {
+    background: url(img/fond.png);
+    padding: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.graph img {
+    margin-top: 80px;
+}
+
+hr {
+    margin-top: 30px;
+    color: #999999;
+}
+
+.graph h2 {
+    color: #f62459;
+    margin-top: 100px;
+}
+
+.graph p {
+    padding: 15px 0;
+}
+
+.service {
+    background: url(img/fond.png);
+    text-align: center;
+    padding: 25px;
+    line-height: 1.5em;
+    color: #999999;
+}
+
+.service1 {
+    padding: 0 20px;
+}
+
+.service i {
+    margin-top: 85px;
+    padding: 20px 0;
+    border: 3px solid rgba(234, 225, 225, 0.61);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    line-height: 30px;
+    background: #f4ecec;
+}
+
+.service h3 {
+    padding: 25px 0;
+    color: #f62459;
+}
+
+.rea {
+    padding: 25px;
+}
+
+.rea img {
+    width: 100%;
+    
+}
+
+.rea h2 {
+    text-align: center;
+    color: #f62459;
+
+}
+
+.rea1 h3 {
+    padding: 25px 0;
+    color: #f62459;
+}
+
+.rea1 p {
+    padding: 10px 0;
+    line-height: 1.7em;
+    color: #999999;
+    margin-bottom: 1em;
+}
+
+.rea a {
+
+    text-decoration: none;
+    background: #f62459;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.rea i {
+    margin-left: 5px;
+
+}
+
+.contact {
+    padding: 25px;
+}
+
+.contact h2 {
+    text-align: center;
+    color: #f62459;
+    margin-top: 15px;
+    font-size: 1.7em;
+}
+
+.contact p {
+    line-height: 1.6em;
+    color: #999999;
+}
+
+.contact input {
+    display: block;
+    border-radius: 25px;
+    padding: 18px 10px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.contact button {
+    margin-top: 15px;
+    color: white;
+    background: #999999;
+    padding: 15px 25px;
+
+
+}
+
+.contact button[type="submit"] {
+    background: #f62459;
+    margin-left: 60px;
+}
+
+.contact input:nth-of-type(1) {
+    background: url(img/bg_form_name.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10px;
+}
+
+.contact input:nth-of-type(2) {
+    background: url(img/bg_form_mail.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10px;
+}
+
+.contact input:nth-of-type(3) {
+    background: url(img/bg_form_message.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10px;
+}
+
+@media screen and (min-width: 768px) {
+ .img1{
+        float: right;
+        width: 30%!important ;    
+}
+.img2{
+    width: 30%!important ;
+    float: left;
+}     
+}
+    
+@media screen and (min-width: 1025px) {
+    .img1{
+        float: right;
+        width: 40% !important ;
+    }
+    .img2{
+        float: left;
+        width: 40% !important ;
+    }
+    .rea{
+        margin: 0 250px;
+    }
+    .contact{
+        margin: 0 250px;
+    }
+    .service1{
+        display: flex;
+        margin: 0 250px;
+        justify-content: space-around ;       
+    }
+    
+    .titre{
+        display: inline-block;
+        margin-left: 100px;
+    }
+    nav{
+        display: inline-block;
+        margin: 0 250px;
+    }
+}
